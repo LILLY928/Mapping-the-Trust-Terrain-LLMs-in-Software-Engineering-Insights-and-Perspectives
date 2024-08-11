@@ -8,11 +8,14 @@ We conducted a systematic literature review (SLR) following the approach by [Kit
 
 1. [Search for Primary Studies](#sfps)
 2. [Screening](#screening)
-    2.a. [Filter by Title](#fbt)
-    2.b. [Filter by Abstract](#fba)
-    2.c. [Full-text Screening](#fs)
-3. [Snowballing and Manual Addition](#snowballing)
-4. [Data Extraction and Analysis](#deaa)
+
+   2.a. [Filter by Title](#fbt)
+
+   2.b. [Filter by Abstract](#fba)
+
+   2.c. [Full-text Screening](#fs)
+4. [Snowballing and Manual Addition](#snowballing)
+5. [Data Extraction and Analysis](#deaa)
 
 The two authors conducted each step in this process independently, and met after each step to ensure alignment and resolve any differences. The third author was consulted as needed to help settle any disputes. 
 
