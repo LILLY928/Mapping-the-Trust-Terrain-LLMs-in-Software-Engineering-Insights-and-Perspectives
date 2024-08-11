@@ -1,9 +1,9 @@
 # Overview
-This repository contains the data and code for the paper: _Mapping the Trust Terrain: LLMs in Software Engineering - Insights and Perspectives_. In this work, we aimed to understand how trust is defined, conceptualized, and measured in the context of using LLMs for SE. To this end, we first conducted a systematic literature review of 14 related papers from Software Engineering, Deep Learning, and Human-Computer Interaction to understand the current research status on trust concepts. We then surveyed with 25 domain experts to understand practitioners' perceptions of trust.
+This repository contains the data and code for the paper: _Mapping the Trust Terrain: LLMs in Software Engineering - Insights and Perspectives_. In this work, we aimed to understand how trust is defined, conceptualized, and measured in the context of using LLMs for SE. To this end, we first conducted a systematic literature review of 14 related papers from Software Engineering, Deep Learning, and Human-Computer Interaction to understand the current research status on trust concepts. We then surveyed 25 domain experts to understand practitioners' perceptions of trust.
 
 This repository contains all of our data to facilitate reproducibility and to encourage contributions from the community to promote trust in LLMs in SE.
 
-## Systematic Literature Review
+# Systematic Literature Review
 We conducted a systematic literature review (SLR) following the approach by [Kitchenham et al.](https://dl.acm.org/doi/10.1145/2372233.2372235). Before starting the review process, we developed research questions (RQs) according to Kitchenham's guidelines. This helped us systematically identify papers relevant to our research goals. We then performed the following steps: 
 
 1. [Search for Primary Studies](#sfps)
@@ -17,7 +17,7 @@ We conducted a systematic literature review (SLR) following the approach by [Kit
 4. [Snowballing and Manual Addition](#snowballing)
 5. [Data Extraction and Analysis](#deaa)
 
-The two authors conducted each step in this process independently, and met after each step to ensure alignment and resolve any differences. The third author was consulted as needed to help settle any disputes. 
+The two authors conducted each step in this process independently and met after each step to ensure alignment and resolve any differences. The third author was consulted as needed to help settle any disputes. 
 
 ## Search for Primary Studies <a name="sfps"></a>
 We focused on the period from January 1st, 2002 to February 1st, 2024, the time when we started our search. We chose 2002 as our starting period because this was when the method to model language using feed-forward neural networks was published by [Bengio et al.](https://proceedings.neurips.cc/paper_files/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf). We then identified major venues in SE, Machine Learning, HCI, and DL that align with our research goals.
