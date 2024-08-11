@@ -17,7 +17,8 @@ We conducted a systematic literature review (SLR) following the approach by [Kit
 4. [Snowballing and Manual Addition](#snowballing)
 5. [Data Extraction and Analysis](#deaa)
 
-The two authors conducted each step in this process independently and met after each step to ensure alignment and resolve any differences. The third author was consulted as needed to help settle any disputes. 
+The two authors conducted each step in this process independently and met after each step to ensure alignment and resolve any differences. The third author was consulted as needed to help settle any disputes. The image below provides a visual representation of our complete pipeline. A detailed record of each step can be found in `Number Record.xlsx`.
+![Pipeline for Survey](./Literature%20Review/Pipeline%20for%20Survey.png)
 
 ## Search for Primary Studies <a name="sfps"></a>
 We focused on the period from January 1st, 2002 to February 1st, 2024, the time when we started our search. We chose 2002 as our starting period because this was when the method to model language using feed-forward neural networks was published by [Bengio et al.](https://proceedings.neurips.cc/paper_files/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf). We then identified major venues in SE, Machine Learning, HCI, and DL that align with our research goals.
