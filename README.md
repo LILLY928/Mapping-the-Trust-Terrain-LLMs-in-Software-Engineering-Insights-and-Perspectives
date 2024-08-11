@@ -62,3 +62,47 @@ Both authors worked independently to extract information and populate the datase
 
 The results related to the data extraction and analysis can be found in the `4.Data Extraction and Analysis` folder.
 
+# Survey Study
+
+Upon approval from our Institutional Review Board (IRB), we conducted a survey study to investigate practitioners' perceptions of trust-related concepts when using LLMs for SE tasks. Specifically, we explored definitions of trust, its antecedents, and metrics, complementing our systematic literature review with insights from both expert and novice practitioners. We employed [purposive sampling](https://link.springer.com/article/10.1007/s10664-021-10072-8) to reach practitioners with varying levels of SE and machine learning expertise, including industry experts, researchers, students, and software engineers. Participation was voluntary with no incentives offered, and participants were informed of the voluntary nature of the study during solicitation.
+
+* [Survey Structure](#survey-structure)
+* [Qualitative Metrics](#qualitative-metrics)
+* [Trust Antecedents Selection](#trust-antecedents-selection)
+* [Data Collection](#data-collection)
+* [Survey Validity](#survey-validity)
+
+## Survey Structure <a name="survey-structure"></a>
+
+The survey consists of four sections, detailed below:
+
+* _Section 1_ assesses the practitioner's familiarity with using LLMs for various SE tasks. It qualifies practitioners for the rest of the survey, ensuring valid feedback by excluding those who have never used LLMs for the subsequent tasks.
+* _Section 2_ includes blocks of questions investigating practitioners' insights into trust-related concepts in Test Case Generation, Code Generation, and Program Repair. Blocks are presented in random order to avoid bias. Each block covers trust definitions, antecedents, and metrics. Only practitioners with experience in using LLMs for these tasks answer these questions.
+* _Section 3_ captures general perceptions of the importance of trust, the desired metrics for trust, and whether practitioners value the significance of these topics.
+* _Section 4_ collects demographic information about participants, such as sex, job title, and years of experience. The data is used to categorize trust-related concepts by expertise during data analysis.
+
+The original responses captured from the survey study are documented in `Survey Responses Raw Data from Qualtrics.csv`. Our coding of the free-response questions can be found in the `Open-ended Qs Coding` folder.
+
+## Qualitative Metrics <a name="qualitative-metrics"></a>
+
+We derived survey metrics based on our SLR to complement it with participants' perceptions. We captured trust definitions, antecedents, and metrics.
+
+* _Definition_: We asked practitioners with experience in using LLMs for specific tasks to define trust in code generation, test-case generation, and program repair.
+* _Antecedents of Trust_: We gathered practitioners' views on useful trust antecedents for specific downstream SE tasks. This metric allows us to investigate whether trust antecedents are consistent across different tasks.
+* _Trust Metrics_: We collected information on how practitioners measure trust in specific tasks through open-ended questions. This helped us compare practitioners' trust measurement methods with those in the literature. We also inquired about their code review processes for both human-written and LLM-generated code to identify similarities and differences.
+
+The organization of survey questions according to our research questions can be found in `Survey Questions Organized by RQs.xlsx`.
+
+## Trust Antecedents Selection <a name="trust-antecedents-selection"></a>
+
+The survey asked participants to select trust antecedents for each downstream task. We identified model-related and community-related attributes from SE, HCI, and ML literature. One author compiled all the documented antecedents, and then two authors independently categorized them, resolving disagreements through discussion. We selected the nine most popular antecedents for our survey, allowing participants to add any additional ones not originally listed.
+
+More detailed documentation of the trust antecedents we extracted can be found in `Trust factor source.xlsx`.
+
+## Data Collection <a name="data-collection"></a>
+
+We reached out to **96** potential participants with varying expertise and from different backgrounds, who were not involved in or aware of the purpose of this work. Of these, **48** participants completed the survey. However, we discarded the responses from **23** participants due to incomplete or poor-quality answers, leaving **25** valid responses. The study was conducted using Qualtrics.
+
+## Survey Validity <a name="survey-validity"></a>
+
+To enhance the validity of our survey, we conducted two pilot studies: the first with **5** participants and the second with **2** participants who were not invited to the main survey. Based on the results of these pilot studies, we eliminated leading questions, corrected minor errors, and made improvements to our trust antecedents selection. Our survey study was also informed by findings from our literature review. Additionally, data analysis for the survey was independently conducted by two of the authors to minimize bias and human error.
