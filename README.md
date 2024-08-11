@@ -56,7 +56,7 @@ Despite thorough efforts to locate further relevant research, no additional pape
 The results related to the snowballing can be found in the `3.Snowballing` folder.
 
 ## Data Extraction and Analysis <a name="deaa"></a>
-We iteratively reviewed the collected papers to gather both general and specific information relevant to our RQs, following protocols suggested by [Levett et al.](https://guides.himmelfarb.gwu.edu/systematic_review/data-extraction). We created a dataset with the following data: authors, year of publication, RQs proposed, methodology, study population and characteristics (for user studies), definitions of trust, consequences of trust, the importance of trust, antecedents of trust, and metrics used for trust.
+We iteratively reviewed the **14** collected papers to gather both general and specific information relevant to our RQs, following protocols suggested by [Levett et al.](https://guides.himmelfarb.gwu.edu/systematic_review/data-extraction). We created a dataset with the following data: authors, year of publication, RQs proposed, methodology, study population and characteristics (for user studies), definitions of trust, consequences of trust, the importance of trust, antecedents of trust, and metrics used for trust.
 
 Both authors worked independently to extract information and populate the dataset. Any discrepancies were discussed with the third author. In the end, we achieved a high Inter-Rater Reliability (IRR), with a Cohen's kappa (κ) coefficient of 0.824.
 
