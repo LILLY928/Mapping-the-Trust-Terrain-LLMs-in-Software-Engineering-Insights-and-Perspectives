@@ -77,6 +77,7 @@ The results related to the data extraction and analysis can be found in the `4.D
 Upon approval from our Institutional Review Board (IRB), we conducted a survey study to investigate practitioners' perceptions of trust-related concepts when using LLMs for SE tasks. Specifically, we explored definitions of trust, its antecedents, and metrics, complementing our systematic literature review with insights from both expert and novice practitioners. We employed [purposive sampling](https://link.springer.com/article/10.1007/s10664-021-10072-8) to reach practitioners with varying levels of SE and machine learning expertise, including industry experts, researchers, students, and software engineers. Participation was voluntary with no incentives offered, and participants were informed of the voluntary nature of the study during solicitation.
 
 * [Survey Structure](#survey-structure)
+* [Participant Demographics](#participant-demographics)
 * [Qualitative Metrics](#qualitative-metrics)
 * [Trust Antecedents Selection](#trust-antecedents-selection)
 * [Data Collection](#data-collection)
@@ -92,6 +93,43 @@ The survey consists of four sections, detailed below:
 * _Section 4_ collects demographic information about participants, such as sex, job title, and years of experience. The data is used to categorize trust-related concepts by expertise during data analysis.
 
 The original responses captured from the survey study are documented in `Survey Responses Raw Data from Qualtrics.csv`. Our coding of the free-response questions can be found in the `Open-ended Qs Coding` folder.
+
+## Participant Demographics <a name="participant-demographics"></a>
+
+The table below presents the demographic characteristics of the 25 participants who completed the survey. The majority of participants were between 25–34 years of age, most identified as male, and the majority reported having graduate or professional degrees. Participants represented a mix of students, researchers, engineers, and professors.
+
+| Characteristic        | Category                                      | n  | %     |
+|-----------------------|-----------------------------------------------|----|-------|
+| Age                   | 18–24                                         | 4  | 16.0  |
+|                       | 25–34                                         | 17 | 68.0  |
+|                       | 35–44                                         | 3  | 12.0  |
+|                       | 55–64                                         | 1  | 4.0   |
+|                       | **Total**                                     | 25 |  |
+| Sex / Gender          | Male                                          | 19 | 76.0  |
+|                       | Female                                        | 5  | 20.0  |
+|                       | Non-binary                                    | 1  | 4.0   |
+|                       | **Total**                                     | 25 |  |
+| Hispanic / Latino     | None of these                                 | 25 | 100.0 |
+|                       | **Total**                                     | 25 |  |
+| Race / Ethnicity      | Asian                                         | 15 | 60.0  |
+|                       | White                                         | 6  | 24.0  |
+|                       | Prefer not to answer                          | 2  | 8.0   |
+|                       | Native Hawaiian or Pacific Islander + White   | 1  | 4.0   |
+|                       | Black or African American                     | 1  | 4.0   |
+|                       | **Total**                                     | 25 |  |
+| Education             | Graduate or professional degree               | 15 | 60.0  |
+|                       | Bachelor’s degree                             | 9  | 36.0  |
+|                       | High school diploma or equivalent             | 1  | 4.0   |
+|                       | **Total**                                     | 25 |  |
+| Job Title             | Student                                       | 10 | 40.0  |
+|                       | Researcher                                    | 5  | 20.0  |
+|                       | Engineer                                      | 4  | 16.0  |
+|                       | Professor                                     | 3  | 12.0  |
+|                       | Freelancer                                    | 1  | 4.0   |
+|                       | Other                                         | 1  | 4.0   |
+|                       | Manager                                       | 1  | 4.0   |
+|                       | **Total**                                     | 25 |  |
+
 
 ## Qualitative Metrics <a name="qualitative-metrics"></a>
 
